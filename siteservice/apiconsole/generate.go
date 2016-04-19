@@ -9,5 +9,5 @@ Using github svn access is a trick to download that subfolder, next, package it 
 
 */
 
-//go:generate svn export --force https://github.com/mulesoft/api-console/branches/feature/new-raml/dist
+//go:generate svn export --force https://github.com/mulesoft/api-console/branches/features/raml-1.0/dist
 //go:generate go-bindata -pkg apiconsole -prefix dist -o apiconsole.go -ignore "index.html|favicon.ico|examples" dist/...
